@@ -1,0 +1,19 @@
+ZARZAL EXPERIENCE - PROYECTO ANDROID + COMPILACIÓN EN LA NUBE
+
+Este ZIP contiene el código fuente Android y un flujo de GitHub Actions que compila un APK de prueba (debug) en la nube.
+
+PASOS:
+1. Descarga y descomprime este ZIP.
+2. En GitHub crea un repositorio nuevo llamado ZarzalExperience.
+3. Sube al repositorio TODO el contenido descomprimido, incluidas las carpetas app y .github.
+   Importante: la carpeta .github puede estar oculta en algunos exploradores de archivos.
+4. En GitHub abre la pestaña Actions y habilita los workflows si GitHub lo solicita.
+5. El flujo "Build Zarzal Experience APK" se ejecuta al subir cambios a main. También puedes abrirlo y pulsar "Run workflow".
+6. Cuando termine en verde, abre esa ejecución, baja a Artifacts y descarga "Zarzal-Experience-APK".
+7. Descomprime el artefacto descargado; dentro estará app-debug.apk. Pásalo a tu Android e instálalo.
+
+NOTAS:
+- Este es un APK debug de prueba, no una versión firmada para publicar en Google Play.
+- GitHub requiere una cuenta y conexión a internet. No compartas tu contraseña ni códigos de verificación.
+- Los lugares, precios, reservas y contactos son contenido de demostración y deben verificarse antes de publicar.
+- Si GitHub muestra un error, comparte el texto del error (sin datos privados) para ayudarte a corregirlo.
